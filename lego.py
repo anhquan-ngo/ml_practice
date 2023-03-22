@@ -1,5 +1,6 @@
 ```
-Overview: Analyze a dataset on every single Lego block that has ever been built!
+Overview: Analyze two datasets on every single Lego block that has ever been built! 
+This is a Pandas dataframe manipulation basic practice.
 ```
 import pandas as pd
 # Read colors data
