@@ -31,7 +31,8 @@ parts_by_year.plot()
 themes_by_year = sets[['year','theme_id']].groupby('year').nunique()
 print(themes_by_year.head)
 
-# Get the number of unique themes released in 1999
 num_themes = themes_by_year.loc[1999]
 # Print the number of unique themes released in 1999
 print(num_themes)
+
+print("Hello")
